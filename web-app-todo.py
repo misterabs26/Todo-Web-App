@@ -22,5 +22,3 @@ for i,todo in enumerate(todos):
 
 st.text_input("", placeholder="Add your new to-do", on_change=add_todo,
               key="new_todo")
-
-st.session_state
