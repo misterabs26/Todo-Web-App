@@ -4,7 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run web-app-todo.py -- server.port=10000 --server.address=0.0.0.0"
+    startCommand: "streamlit run web-app-todo.py -- server.port=8501 --server.address=0.0.0.0"
     envVars:
       - key: PORT
-        value: 10000
+        value: 8501
